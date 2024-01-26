@@ -12,7 +12,7 @@ export default function App() {
   const [amount, setAmount] = useState("")
   const [category, setCategory] = useState("Food")
   const [expenses, setExpenses] = useState([])
-  const categories = ["Food", "Clothes", "Bills", "Others"]
+  const categories = ["Food", "Shopping", "Bills", "Others"]
   const [addForm, setAddForm] = useState(false)
 
   // Function to open the add expense form
@@ -97,7 +97,7 @@ export default function App() {
         <View style={styles.row}>
           <Button
             onPress={addExpense}
-            color="green"
+            color="#364FFF"
             style={styles.addButton}
             title="Add Expense"
           />
