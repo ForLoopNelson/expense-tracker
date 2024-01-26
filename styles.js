@@ -13,8 +13,8 @@ const styles = StyleSheet.create({
     marginTop: 50,
   },
   heading: {
-    color: "green",
-    fontSize: 30,
+    color: "#364FFF",
+    fontSize: 50,
     textAlign: "center",
     fontWeight: "bold",
   },
